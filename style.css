@@ -1,0 +1,88 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+
+}
+body {
+    scroll-behavior: smooth;
+    background-color: black;
+}
+/* navigation stylings */
+.navigation{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(247, 244, 244);
+}
+
+.links > ul{
+    display: flex;
+    
+}
+
+.links > ul > a > li{
+    padding: 0 15px 0;
+    list-style: none;
+}
+
+.links > ul > a{
+    text-decoration: none;
+    color: black;
+}
+
+.link > ul > a:active{
+    color: blue;
+}
+
+/* banner stylings */
+.banner{
+    height: 92vh;
+    background: url(./img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 70% black;
+
+    
+    /* background-color: hsl(0, 100%, 50%); */
+}
+
+.banner .content{
+
+    padding-top: 20%;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about {
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+    color: white;
+
+}
+.about p {
+    font-size: 28px;
+}
+.skills {
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+.icons {
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+
+}
+.contact {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    margin-top: 60px;
+    margin-bottom:30px ;
+
+}
